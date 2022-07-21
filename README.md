@@ -1,12 +1,10 @@
 # integration-website-trafalgar
 
-This is a solution to the [figma design](https://www.figma.com/file/EWmzcVkd7qbP5Nf7iMvuqP/Trafalgar-Landing-Page?node-id=1%3A2). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is an implementation of a [youtube tutorial](https://www.youtube.com/watch?v=TVFu4-Kd4oM). Frontend Mentor challenges help you improve your coding skills by creating realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -14,14 +12,15 @@ This is a solution to the [figma design](https://www.figma.com/file/EWmzcVkd7qbP
 
 ### Links
 
-- Solution URL: [https://github.com/JuniorTachomTMCJ/integration-website-trafalgar.git](https://github.com/JuniorTachomTMCJ/integration-website-trafalgar.git)
-- Live Site URL: [https://juniortachomtmcj.github.io/integration-website-trafalgar/](https://juniortachomtmcj.github.io/integration-website-trafalgar/)
+- Solution URL: [https://github.com/JuniorTachomTMCJ/Complete-responsive-coffee-shop-website-design.git](https://github.com/JuniorTachomTMCJ/Complete-responsive-coffee-shop-website-design.git)
+- Live Site URL: [https://juniortachomtmcj.github.io/Complete-responsive-coffee-shop-website-design/](https://juniortachomtmcj.github.io/Complete-responsive-coffee-shop-website-design/)
 
 ### Built with
 
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Media Query
 
 ## Author
 
