@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete responsive coffee shop website design</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="header__logo">
+            <img src="./assets/images/logo.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="navbar__link">Home</a>
+            <a href="#about" class="navbar__link">About</a>
+            <a href="#menu" class="navbar__link">Menu</a>
+            <a href="#products" class="navbar__link">Products</a>
+            <a href="#review" class="navbar__link">review</a>
+            <a href="#contact" class="navbar__link">Contact</a>
+            <a href="#blogs" class="navbar__link">Blogs</a>
+        </nav>
+
+        <div class="header__icons">
+            <i class="fa-solid fa-magnifying-glass" id="search-btn" title="Search"></i>
+            <i class="fas fa-shopping-cart" id="cart-btn"></i>
+            <i class="fas fa-bars" id="menu-btn"></i>
+        </div>
+
+        <div class="header__search-form">
+            <input type="search" name="search-box" id="search-box" placeholder="search here...">
+            <label for="search-box">
+                <i class="fas fa-search"></i>
+            </label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./assets/images/cart-item-1.png" alt="cart item 01" class="cart-item__img">
+                <div class="cart-item__content">
+                    <h3 class="cart-item__title">Cart item 01</h3>
+                    <div class="cart-item__price">$15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./assets/images/cart-item-2.png" alt="cart item 01" class="cart-item__img">
+                <div class="cart-item__content">
+                    <h3 class="cart-item__title">Cart item 02</h3>
+                    <div class="cart-item__price">$15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./assets/images/cart-item-3.png" alt="cart item 01" class="cart-item__img">
+                <div class="cart-item__content">
+                    <h3 class="cart-item__title">Cart item 03</h3>
+                    <div class="cart-item__price">$15.99</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./assets/images/cart-item-4.png" alt="cart item 01" class="cart-item__img">
+                <div class="cart-item__content">
+                    <h3 class="cart-item__title">Cart item 04</h3>
+                    <div class="cart-item__price">$15.99</div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">Checkout now</a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh cofee in the morning</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eligendi sint recusandae ea, odit
+                laboriosam
+                quia rerum voluptatibus modi, et labore nihil est nesciunt doloremque iusto. Itaque reiciendis neque
+                ipsum.
+            </p>
+            <a href="#" class="btn">Get yours now</a>
+
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading">
+            <span>about</span> us
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="./assets/images/about-img.jpeg" alt="about image">
+            </div>
+            <div class="content">
+                <h3>What makes our coffee special ?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero exercitationem animi, debitis alias
+                    consectetur dolore perferendis odit temporibus nisi earum et sit facere magnam? Facere cumque vero
+                    animi aliquid deleniti!
+                </p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h1 class="heading">Our <span>menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/images/menu-1.png" alt="" class="box__img">
+                <h3>tasty and healty</h3>
+                <div class="box__price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="./assets/images/menu-2.png" alt="" class="box__img">
+                <h3>tasty and healty</h3>
+                <div class="box__price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="./assets/images/menu-3.png" alt="" class="box__img">
+                <h3>tasty and healty</h3>
+                <div class="box__price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="./assets/images/menu-4.png" alt="" class="box__img">
+                <h3>tasty and healty</h3>
+                <div class="box__price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="./assets/images/menu-5.png" alt="" class="box__img">
+                <h3>tasty and healty</h3>
+                <div class="box__price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="./assets/images/menu-6.png" alt="" class="box__img">
+                <h3>tasty and healty</h3>
+                <div class="box__price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box__icons">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                </div>
+                <div class="box__image">
+                    <img src="./assets/images/product-1.png" alt="">
+                </div>
+                <div class="box__content">
+                    <h3>Fresh coffee </h3>
+                    <div class="box__starts">
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start-half-alt"></i>
+                    </div>
+                    <div class="box__price">$15.99 <span>20.99</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box__icons">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                </div>
+                <div class="box__image">
+                    <img src="./assets/images/product-2.png" alt="">
+                </div>
+                <div class="box__content">
+                    <h3>Fresh coffee </h3>
+                    <div class="box__starts">
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start-half-alt"></i>
+                    </div>
+                    <div class="box__price">$15.99 <span>20.99</span></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box__icons">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                </div>
+                <div class="box__image">
+                    <img src="./assets/images/product-3.png" alt="">
+                </div>
+                <div class="box__content">
+                    <h3>Fresh coffee </h3>
+                    <div class="box__starts">
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start"></i>
+                        <i class="fas fa-start-half-alt"></i>
+                    </div>
+                    <div class="box__price">$15.99 <span>20.99</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
